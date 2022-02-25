@@ -1,0 +1,11 @@
+{
+  "name": "color-picker",
+  "version": "1.0.0",
+  "description": "Color Picker using JS",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass main.scss css/style.css -w"
+  },
+  "author": "",
+  "license": "ISC"
+}

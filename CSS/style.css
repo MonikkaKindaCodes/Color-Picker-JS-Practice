@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.button {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.button__btn {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 700;
+  width: 20rem;
+  height: 4rem;
+  background-color: rgba(66, 3, 84, 0.715);
+  border: none;
+  text-transform: uppercase;
+  border-radius: 2rem;
+  transform-style: preserve-3d;
+  transition: 0.3s ease-out;
+}
+.button__btn::after {
+  top: -100%;
+  left: 0px;
+  width: 100%;
+  position: absolute;
+  background: #b56503;
+  border-radius: 10px;
+  content: "Color Is...";
+  transform-origin: left bottom;
+  transform: rotateX(90deg);
+}
+.button__btn:hover {
+  transform-origin: center bottom;
+  transform: rotateX(-90deg) translateY(100%);
+  transition: 0.3s ease-in;
+}
+
+/*# sourceMappingURL=style.css.map */
