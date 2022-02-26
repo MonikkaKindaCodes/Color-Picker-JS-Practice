@@ -14,7 +14,7 @@
   width: 20rem;
   height: 4rem;
   background-color: rgba(66, 3, 84, 0.715);
-  border: none;
+  border: 0.5rem solid rgb(79, 79, 79);
   text-transform: uppercase;
   border-radius: 2rem;
   transform-style: preserve-3d;
@@ -26,7 +26,8 @@
     width: 100%;
     position: absolute;
     background: #b56503;
-    border-radius: 10px;
+    border: 0.5rem solid rgb(79, 79, 79);
+    border-radius: 2rem;
     content: "Color Is...";
     transform-origin: left bottom;
     transform: rotateX(90deg);

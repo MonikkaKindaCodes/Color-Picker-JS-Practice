@@ -30,7 +30,7 @@ body {
   width: 20rem;
   height: 4rem;
   background-color: rgba(66, 3, 84, 0.715);
-  border: none;
+  border: 0.5rem solid #4f4f4f;
   text-transform: uppercase;
   border-radius: 2rem;
   transform-style: preserve-3d;
@@ -42,7 +42,8 @@ body {
   width: 100%;
   position: absolute;
   background: #b56503;
-  border-radius: 10px;
+  border: 0.5rem solid #4f4f4f;
+  border-radius: 2rem;
   content: "Color Is...";
   transform-origin: left bottom;
   transform: rotateX(90deg);
